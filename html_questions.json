@@ -1,0 +1,82 @@
+[
+  {
+    "title": "What does HTML stand for?",
+    "answer_1": "HyperText Markup Language",
+    "answer_2": "HyperText Machine Language",
+    "answer_3": "HighText Markup Language",
+    "answer_4": "Hyper Transfer Markup Language",
+    "right_answer": "HyperText Markup Language"
+  },
+  {
+    "title": "Which property is used to change the background color in CSS?",
+    "answer_1": "background-color",
+    "answer_2": "color",
+    "answer_3": "bgcolor",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which attribute is used to specify the destination of a link?",
+    "answer_1": "src",
+    "answer_2": "href",
+    "answer_3": "link",
+    "answer_4": "url",
+    "right_answer": "href"
+  },
+  {
+    "title": "How do you write a comment in CSS?",
+    "answer_1": "// This is a comment",
+    "answer_2": "/* This is a comment */",
+    "answer_3": "-- This is a comment -->",
+    "answer_4": "' This is a comment",
+    "right_answer": "/* This is a comment */"
+  },
+  {
+    "title": "Which operator is used to assign a value to a variable in JavaScript?",
+    "answer_1": "=",
+    "answer_2": "==",
+    "answer_3": "===",
+    "answer_4": "::",
+    "right_answer": "="
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Cascading Style Sheets",
+    "answer_2": "Colorful Style Sheets",
+    "answer_3": "Computer Style Sheets",
+    "answer_4": "Creative Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "How do you define a JavaScript array?",
+    "answer_1": "var array = {'item1', 'item2'}",
+    "answer_2": "var array = ['item1', 'item2']",
+    "answer_3": "var array = ('item1', 'item2')",
+    "answer_4": "var array = {'key1': 'value1', 'key2': 'value2'}",
+    "right_answer": "var array = ['item1', 'item2']"
+  },
+  {
+    "title": "What does the 'this' keyword refer to in JavaScript?",
+    "answer_1": "The global object",
+    "answer_2": "The current object",
+    "answer_3": "The parent object",
+    "answer_4": "None of the above",
+    "right_answer": "The current object"
+  },
+  {
+    "title": "What is the default display property of the <div> element?",
+    "answer_1": "inline",
+    "answer_2": "block",
+    "answer_3": "flex",
+    "answer_4": "inline-block",
+    "right_answer": "block"
+  },
+  {
+    "title": "What is the correct syntax to write a function in JavaScript?",
+    "answer_1": "function myFunction() {}",
+    "answer_2": "def myFunction() {}",
+    "answer_3": "function:myFunction {}",
+    "answer_4": "method myFunction() {}",
+    "right_answer": "function myFunction() {}"
+  }
+]

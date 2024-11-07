@@ -1,0 +1,113 @@
+*{
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Tahoma,Arial, sans-serif;
+}
+.quiz-app{
+  margin: 1.4rem auto;
+  width: 60%;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  position: relative;
+  /* text-align: center; */
+  box-shadow: 1px 1px 10px #cec6c6;
+  max-height: 90%;
+}
+ h1{
+  margin-bottom: 1.3rem;
+  color: #0075ff;
+  text-align: center;
+}
+.quiz-info{
+  display: flex;
+  /* max-width: 600px; */
+  /* margin: 30px auto; */
+  background-color: #fff;
+  padding: 1.4rem;
+}
+.quiz-app .quiz-info .category{
+  flex: 1;
+}
+.quiz-app .quiz-info .count{
+  flex: 1;
+  text-align: right;
+}
+.quiz-app .quiz-area{
+  background-color: #fff;
+  padding: 1.4rem;
+  margin: 1.4rem 0;
+}
+.quiz-app .quiz-area h2{
+  margin: 1rem;
+}
+.quiz-app .answer-area{
+  background-color: #fff;
+  padding: 0 1.4rem 1.4rem;
+  box-shadow: 1px 1px 10px #cec6c6;
+
+}
+.quiz-app .answer-area .answer{
+  background-color: #f9f9f9;
+  padding: 1rem;
+}
+.quiz-app .answer-area .answer:not(:last-child){
+  border-bottom: 1px solid #dfdfdf;
+}
+.quiz-app .answer-area .answer input[type="radio"]:checked + label{
+  color: #0075ff;
+}
+.quiz-app .answer-area .answer label{
+  cursor: pointer;
+  font-weight: bold;
+  color: #777;
+  font-size: 1rem;
+  margin-left: .5rem;
+  position: relative;
+  top: -2px;
+
+  line-height: 2;
+}
+.quiz-app .submit-button{
+  background-color: #0075ff;
+  width: 50%;
+  padding: .7rem 1rem;
+  margin: 0 auto;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  line-height: 1.5;
+ display: block;
+}
+.quiz-app .bullets{
+  border-top: 1px solid #dfdfdf;
+  background-color: #fff;
+  display: flex;
+  padding: 1.2rem;
+  justify-content: space-between;
+}
+ quiz-app .bullets .spans{
+  flex: 1;
+  display: flex;
+}
+  .spans span{
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #cbcbcb;
+  border-radius: 50%;
+  margin-right: .5rem;
+  cursor: pointer;
+}
+.spans span.on{
+  background-color: #0075ff;
+}
+.quiz-app .results span { 
+  font-weight: bold;
+}
+ 
